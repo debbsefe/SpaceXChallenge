@@ -7,7 +7,12 @@ class Launch extends StatelessWidget {
       child: Column(
         children: [
           Row(
-            children: [Image.asset('/assets/images/crs.jpg')],
+            children: [
+              Image.asset(
+                './assets/images/launch.png',
+                scale: 4,
+              )
+            ],
           )
         ],
       ),
