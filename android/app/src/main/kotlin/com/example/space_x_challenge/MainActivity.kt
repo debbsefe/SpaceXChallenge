@@ -1,4 +1,4 @@
-package com.example.space_x_challenge
+package com.example.SpaceXChallenge
 
 import io.flutter.embedding.android.FlutterActivity
 

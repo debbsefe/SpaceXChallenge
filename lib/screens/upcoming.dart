@@ -1,7 +1,7 @@
+import 'package:SpaceXChallenge/widgets/list_tiles.dart';
 import 'package:flutter/material.dart';
-import 'package:space_x_challenge/theme.dart';
-import 'package:space_x_challenge/widgets/cards.dart';
-import 'package:space_x_challenge/widgets/sized_box.dart';
+import 'package:SpaceXChallenge/widgets/cards.dart';
+import 'package:SpaceXChallenge/widgets/sized_box.dart';
 import 'package:sizer/sizer.dart';
 
 class Upcoming extends StatelessWidget {
@@ -24,8 +24,10 @@ class Upcoming extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 textTile('LAUNCH DATE', 'Thu Oct 17 5:30:00 2019'),
-                textTile('LAUNCH SITE',
-                    'Cape Canaveral Air Force Station Space Launch Complex 40'),
+                textTile(
+                  'LAUNCH SITE',
+                  'Cape Canaveral Air Force Station Space Launch Complex 40',
+                ),
                 textTile('COUNT DOWN', '5 Hrs 30mins more...'),
               ],
             ),
@@ -34,19 +36,4 @@ class Upcoming extends StatelessWidget {
       ),
     );
   }
-}
-
-Widget textTile(String title, String subtitle) {
-  return ListTile(
-    contentPadding: EdgeInsets.zero,
-    title: Text(
-      title,
-      style: CustomTheme.bodyText3red,
-    ),
-    subtitle: Text(
-      subtitle,
-      textAlign: TextAlign.justify,
-      style: CustomTheme.headline4,
-    ),
-  );
 }
