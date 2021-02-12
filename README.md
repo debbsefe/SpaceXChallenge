@@ -16,4 +16,4 @@ SpaceX is an American aerospace manufacturer and space transportation services c
 
 ## DOWNLOAD
 
-You can download the apk release here => https://github.com/debbsefe/Captain-Marvel-Comics/releases/download/v.01-alpha/app-release.apk and test on your android device
+You can download the apk release here => https://github.com/debbsefe/SpaceXChallenge/releases/download/v1.0-beta/app-release.apk and install on your android device
